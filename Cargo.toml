@@ -1,0 +1,16 @@
+[package]
+name = "text_extractor"
+version = "0.1.0"
+authors = ["Muhammad Mohiuddin <muhammad.mohiuddin@live.com>"]
+
+[lib]
+name = "text_extractor"
+crate-type = ["dylib"]
+
+[dependencies]
+regex = "*"
+time = "*"
+tendril = "*"
+html5ever = "*"
+html5ever-atoms = "*"
+rayon = "0.6.0"
